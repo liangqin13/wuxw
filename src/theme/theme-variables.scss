@@ -1,0 +1,48 @@
+@import "./basic.scss";
+/* 改变 icon 字体路径变量，必需 */
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+/* 继承ElementUI的样式 */
+@import "~element-ui/packages/theme-chalk/src/index";
+
+
+/* 自定义重写样式 */
+// .el-table--group, .el-table--border{
+//   border: 1px solid $border-color;
+// }
+a{
+    text-decoration: none;
+    color: #fff
+}
+.el-input__inner{
+    height: 32px !important;
+}
+.el-table th > .cell{
+    color: #000 !important
+}
+.el-table .cell{
+    text-align: center;
+}
+.el-checkbox{
+    color:#000 !important
+}
+.el-checkbox__input.is-checked + .el-checkbox__label{
+    color: #004064 !important
+}
+.el-tabs--card > .el-tabs__header{
+    float: right;
+  }
+  .el-tabs__content{
+    position: relative;
+    overflow: visible;
+  }
+  .el-dialog__header{
+    border-bottom: 1px solid #e4e4e4;
+  }
+  .el-dialog__body{
+    overflow: hidden;
+    border-bottom: 1px solid #e4e4e4;
+  }
+  .el-tabs--left .el-tabs__header.is-left{
+    margin-right: 48px
+  }

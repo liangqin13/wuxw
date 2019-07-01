@@ -1,0 +1,37 @@
+/* Element主题色变量 */
+// $--color-primary: #163F6E;
+$--color-primary: #4c83ff;
+// $--color-primary: #234778;
+
+/* vue里引用变量 */
+// 主色
+$main-color:$--color-primary;
+// 次主色
+$second-color: #005485;
+$border-color: #004064;
+// 报警，错误色
+$error-color:#F56C6C;
+
+
+/* Border
+-------------------------- */
+$--border-color-base: $main-color;
+$--border-color-light: $main-color;
+$--border-color-lighter: $main-color;
+$--border-color-extra-light: $main-color;
+// $--border-color-hover: $--color-text-placeholder;
+
+// 折叠器标题颜色
+$--collapse-header-color:  $main-color;
+// 折叠器背景色
+$--collapse-header-fill: #dff5fe;
+
+/* Table
+-------------------------- */
+// $--table-text-color: $--color-text-regular !default;
+$--table-header-color: #FFF;
+// $--table-row-hover-background: $--background-color-base !default;
+// $--table-current-row-background: $--color-primary-light-9 !default;
+// $--table-header-background: $second-color;
+// $--table-footer-background: $--color-text-placeholder !default;
+// $--table-fixed-box-shadow: 0 0 10px rgba(0, 0, 0, .12) !default;
