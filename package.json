@@ -17,7 +17,7 @@
     "jquery": "^2.2.3",
     "echarts": "^4.1.0",
     "element-ui": "^2.8.2",
-    "lodash.merge": "^4.6.1",
+    "lodash.merge": "^4.6.2",
     "qiniu4js": "^1.0.13",
     "v-charts": "^1.19.0",
     "vue": "^2.5.2",
